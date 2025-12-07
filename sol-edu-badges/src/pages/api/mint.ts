@@ -34,7 +34,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       merkleTree: publicKey(process.env.MERKLE_TREE_ADDRESS!),
       collectionMint: publicKey(process.env.COLLECTION_ADDRESS!),
       metadata: {
-        name: "Aarnav Suwal SolPol Degree",
+        name: "Aarnav Suwal's Math SolPoL",
         uri: "https://raw.githubusercontent.com/solana-developers/opos-asset/main/assets/DeveloperPortal/metadata.json",
         sellerFeeBasisPoints: 0,
         collection: { key: publicKey(process.env.COLLECTION_ADDRESS!), verified: false },
